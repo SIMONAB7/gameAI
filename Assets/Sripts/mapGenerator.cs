@@ -30,8 +30,7 @@ public class MapGenerator : MonoBehaviour {
 
 	public TerrainType[] regions;
 
-	public void GenerateMap()
-	{
+	public void GenerateMap(){
 		float[,] noiseMap = Noise.GenerateNoiseMap(mapWidth, mapHeight, seed, noiseScale, octaves, persistance,
 			lacunarity, offset);
 
@@ -66,28 +65,13 @@ public class MapGenerator : MonoBehaviour {
 				TextureGenerator.colorMapTexture(colourMap, mapWidth, mapHeight));
 		}
 
-		void OnValidate()
-		{
-			if (mapWidth < 1)
-			{
-				mapWidth = 1;
-			}
+		navMeshSurfaceHandler navMeshHandler = gameObject.GetComponent<navMeshSurfaceHandler>();
+    	if (navMeshHandler == null){
+       		navMeshHandler = gameObject.AddComponent<navMeshSurfaceHandler>();
+    	}
 
-			if (mapHeight < 1)
-			{
-				mapHeight = 1;
-			}
-
-			if (lacunarity < 1)
-			{
-				lacunarity = 1;
-			}
-
-			if (octaves < 0)
-			{
-				octaves = 0;
-			}
-		}
+    	// Bake the NavMesh
+    	navMeshHandler.BakeNavMesh();
 	}
 
 	[System.Serializable]

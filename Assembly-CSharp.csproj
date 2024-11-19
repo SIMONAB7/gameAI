@@ -50,7 +50,10 @@
     <Compile Include="Assets/Sripts/Noise.cs" />
     <Compile Include="Assets/Sripts/mapGenerator.cs" />
     <Compile Include="Assets/edits/mapEditor.cs" />
+    <Compile Include="Assets/playerController.cs" />
+    <Compile Include="Assets/Sripts/navMeshSurfaceHandler.cs" />
     <Compile Include="Assets/Sripts/meshGen.cs" />
+    <Compile Include="Assets/mouseLook.cs" />
     <Compile Include="Assets/Sripts/texture.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -700,8 +703,14 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
       <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
@@ -733,11 +742,17 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
