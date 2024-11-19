@@ -45,16 +45,10 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Sripts/MapDisplay.cs" />
     <Compile Include="Assets/Sripts/objectGenerator.cs" />
-    <Compile Include="Assets/Sripts/Noise.cs" />
-    <Compile Include="Assets/Sripts/mapGenerator.cs" />
-    <Compile Include="Assets/edits/mapEditor.cs" />
     <Compile Include="Assets/playerController.cs" />
-    <Compile Include="Assets/Sripts/navMeshSurfaceHandler.cs" />
-    <Compile Include="Assets/Sripts/meshGen.cs" />
     <Compile Include="Assets/mouseLook.cs" />
-    <Compile Include="Assets/Sripts/texture.cs" />
+    <Compile Include="Assets/Sripts/ProceduralTerrainGenerator.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -748,11 +742,11 @@
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>/Users/simonabosilkova/Downloads/cwGameAI/My project/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>

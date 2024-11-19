@@ -355,16 +355,10 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/edits/mapEditor.cs"
 "Assets/mouseLook.cs"
 "Assets/playerController.cs"
-"Assets/Sripts/MapDisplay.cs"
-"Assets/Sripts/mapGenerator.cs"
-"Assets/Sripts/meshGen.cs"
-"Assets/Sripts/navMeshSurfaceHandler.cs"
-"Assets/Sripts/Noise.cs"
 "Assets/Sripts/objectGenerator.cs"
-"Assets/Sripts/texture.cs"
+"Assets/Sripts/ProceduralTerrainGenerator.cs"
 -langversion:9.0
 /deterministic
 /optimize+
